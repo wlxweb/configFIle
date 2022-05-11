@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": false,
+     "vueCompilerOptions": "false",
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
