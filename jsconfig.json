@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": false,
-     "vueCompilerOptions": "false",
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
     }
+  },
+  "vueCompilerOptions": {
+    "experimentalDisableTemplateSupport": true,
+    "experimentalShamefullySupportOptionsApi": false
   },
   "exclude": ["node_modules", "dist"]
 }
